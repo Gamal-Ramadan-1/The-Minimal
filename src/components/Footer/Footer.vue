@@ -1,7 +1,7 @@
 <template>
-    <footer class="mt-4 py-5">
-        <div class="container my-5">
-            <div class="row">
+    <footer class="mt-4 pt-5">
+        <div class="container mt-5">
+            <div class="row gy-4">
                 <div class="col-lg-2 col-md-12 col-sm-12">
                     <img src="@/assets/Imgs/logo.svg" alt="Logo Footer">
                 </div>
@@ -75,6 +75,22 @@
             </div>
         </div>
     </footer>
+    <div class="copyright pb-4 pt-3">
+        <div class="container mb-5">
+            <div class="row gy-3">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Copyright 2021 - <span> GRIDGUM </span></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 social-media-copyright">
+                    <i class="mx-lg-4 mx-3 fa-brands fa-facebook-f"></i>
+                    <i class="mx-lg-4 mx-3 fa-brands fa-twitter"></i>
+                    <i class="mx-lg-4 mx-3 fa-brands fa-google-plus-g"></i>
+                    <i class="mx-lg-4 mx-3 fa-brands fa-pinterest"></i>
+                    <i class="mx-lg-4 mx-3 fa-brands fa-dribbble"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 <script>
 export default {
@@ -85,7 +101,7 @@ export default {
 @import '@/Scss/Vars';
 
 footer {
-    background-color: $Fooetr ;
+    background-color: $Footer ;
 
     .input-group {
         border: 1.5px solid $TextFooter;
@@ -153,6 +169,57 @@ footer {
                     transition: all .3s ease-in-out;
                 }
             }
+        }
+    }
+}
+
+.copyright {
+    background-color: $Footer;
+    color: $TextFooter !important;
+
+    p {
+        span{
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+        span:hover {
+            color: white !important;
+            transition: all .3s ease-in-out;
+        }
+    }
+
+    .social-media-copyright {
+
+        i,
+        svg {
+            font-size: 25px;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+
+        .fa-facebook-f:hover {
+            color: #3B5979;
+            transition: all .3s ease-in-out;
+        }
+
+        .fa-twitter:hover {
+            color: #1DA1F2;
+            transition: all .3s ease-in-out;
+        }
+
+        .fa-google-plus-g:hover {
+            color: #D74B39;
+            transition: all .3s ease-in-out;
+        }
+
+        .fa-pinterest:hover {
+            color: #A91921;
+            transition: all .3s ease-in-out;
+        }
+
+        .fa-dribbble:hover {
+            color: #C32361;
+            transition: all .3s ease-in-out;
         }
     }
 }
