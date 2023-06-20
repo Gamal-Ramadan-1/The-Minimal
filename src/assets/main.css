@@ -2,3 +2,22 @@
     box-sizing: border-box !important;
     font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
+
+.mm-menu--opened .mm-panel--noanimation {
+    background-color: white !important;
+}
+
+#menu .mm-navbar {
+    display: none !important;
+    background-color: white !important;
+
+}
+
+.mm-wrapper--opened .mm-wrapper__blocker {
+    opacity: 0 !important;
+    background-color: white !important;
+}
+
+.mm-panel--opened {
+    background-color: white !important;
+}

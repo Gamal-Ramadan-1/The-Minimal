@@ -5,9 +5,12 @@ import App from './App.vue'
 import router from './router'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
+import JQuery from 'jquery'
+let $ = JQuery
 
 const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.use($)
 app.mount('#app')
