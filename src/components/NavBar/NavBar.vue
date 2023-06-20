@@ -1,7 +1,7 @@
 <template>
     <div class="position-relative" style="height: 100px;">
         <nav class="navbar navbar-expand-lg py-4">
-            <div class="container">
+            <div class="container-fluid px-5">
                 <a class="navbar-brand m-0 order-lg-1 order-2" href="#">
                     <img src="@/assets/Imgs/logo-dark.png" alt="Logo Header">
                 </a>
