@@ -58,16 +58,16 @@
                     <h4>Other</h4>
                     <ul>
                         <li>
-                            <routerLink to="/BolgPost">Search</routerLink>
+                            <routerLink to="#">Search</routerLink>
                         </li>
                         <li>
-                            <routerLink to="/Contact">Portfolio</routerLink>
+                            <routerLink to="#">Portfolio</routerLink>
                         </li>
                         <li>
-                            <routerLink to="/Login">About Us</routerLink>
+                            <routerLink to="#">About Us</routerLink>
                         </li>
                         <li>
-                            <routerLink to="/Registration">Contact Us</routerLink>
+                            <routerLink to="#">Contact Us</routerLink>
                         </li>
                     </ul>
                 </div>
@@ -178,10 +178,11 @@ footer {
     color: $TextFooter !important;
 
     p {
-        span{
+        span {
             cursor: pointer;
             transition: all .3s ease-in-out;
         }
+
         span:hover {
             color: white !important;
             transition: all .3s ease-in-out;
