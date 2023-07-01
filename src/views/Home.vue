@@ -1,13 +1,7 @@
-<template>
-    <div>
-        
-    </div>
-</template>
-<script>
-export default {
-    
-}
+<script setup>
+import SliderHome from '../components/Sliders/SliderHome.vue';
 </script>
-<style lang="">
-    
-</style>
+
+<template>
+    <SliderHome />
+</template>

@@ -5,7 +5,6 @@ import Up from '@/components/Button-UP/Up.vue';
 
 </script>
 
-
 <template>
   <NavBar />
   <router-view></router-view>
@@ -13,4 +12,6 @@ import Up from '@/components/Button-UP/Up.vue';
   <Up />
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+
+</style>
