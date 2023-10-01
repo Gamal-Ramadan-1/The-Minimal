@@ -21,3 +21,9 @@
 .mm-panel--opened {
     background-color: white !important;
 }
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: gray !important;
+    font-weight: bolder !important;
+}

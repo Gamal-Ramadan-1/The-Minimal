@@ -38,6 +38,7 @@ export default {
     border-radius: 3px;
     cursor: pointer;
     z-index: 1000;
+    display: flex;
 }
 
 .fade-enter-active,
